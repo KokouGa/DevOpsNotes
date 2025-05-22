@@ -3,8 +3,8 @@
 ## Configuration initiale
 
 	```
-		git config --global user.name "Votre Nom"
-		git config --global user.email "votre.email@example.com"
+	git config --global user.name "Votre Nom"
+	git config --global user.email "votre.email@example.com"
 	
 	```
 ## Pour vérifier la configuration :
@@ -15,19 +15,19 @@
 
 
 	```
-		git status
-		git add fichier.txt
-		git commit -m "Message du commit"
-		git log     											# Voir l'historique des commits
-		git log --oneline  										# vue compacte
-		git log --graph    										# avec visualisation des branches
-		git checkout -- fichier.txt    							# Annuler les modifications locales (non indexées)
-		git clone https://github.com/utilisateur/projet.git
-		git push origin main
-		git pull origin main
-		git checkout -b nouvelle-fonction 
-		git remote add origin https://github.com/utilisateur/projet.git	
-		git remote -v				
+	git status
+	git add fichier.txt
+	git commit -m "Message du commit"
+	git log     										# Voir l'historique des commits
+	git log --oneline  									# vue compacte
+	git log --graph    									# avec visualisation des branches
+	git checkout -- fichier.txt    						# Annuler les modifications locales (non indexées)
+	git clone https://github.com/utilisateur/projet.git
+	git push origin main
+	git pull origin main
+	git checkout -b nouvelle-fonction 
+	git remote add origin https://github.com/utilisateur/projet.git	
+	git remote -v				
 	```
 
 ## Git rebase 
@@ -35,9 +35,9 @@
 
 
 	```
-		git checkout feature/login 
-		git rebase main
-		git rebase --abort   #  Si vous voulez annuler le rebase : 
+	git checkout feature/login 
+	git rebase main
+	git rebase --abort   #  Si vous voulez annuler le rebase : 
 	
 	```
 
@@ -60,8 +60,8 @@ feature/login:   A -- B -- C -- D' -- E' (HEAD)
 Il s’arrête et affiche le fichier en conflit. Vous devez :
 
 	- Modifier le fichier pour résoudre le conflit
-	- Ajouter les changements **git add fichier**
-	- Continuer le rebase  **git rebase --continue**
+	- Ajouter les changements git add fichier**
+	- Continuer le rebase  git rebase --continue
 
 ## Git Merge - Explication Complète
 
@@ -74,9 +74,16 @@ Git combine les modifications et crée un commit spécial
 
 
 	```
-		it checkout main       					# Se placer sur la branche de destination
-		git merge feature/login 				# Fusionner la branche feature/login dans main
-		git merge --no-ff feature				# Utiliser --no-ff pour forcer un commit de merge explicite:
-		git diff main..feature      			# Vérifier les différences avant de merger:    		
+	git checkout main       				# Se placer sur la branche de destination
+	git merge feature/login 				# Fusionner la branche feature/login dans main
+	git merge --no-ff feature				# Utiliser --no-ff pour forcer un commit de merge explicite:
+	git diff main..feature      			# Vérifier les différences avant de merger:    		
 	
 	```
+
+
+## Git Stash
+Git stash permet de sauvegarder temporairement les modifications non validées.
+
+git stash           # Sauvegarder
+
