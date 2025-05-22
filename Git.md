@@ -18,10 +18,10 @@
 	git status
 	git add fichier.txt
 	git commit -m "Message du commit"
-	git log     										# Voir l'historique des commits
-	git log --oneline  									# vue compacte
-	git log --graph    									# avec visualisation des branches
-	git checkout -- fichier.txt    						# Annuler les modifications locales (non indexées)
+	git log     								# Voir l'historique des commits
+	git log --oneline  							# vue compacte
+	git log --graph    							# avec visualisation des branches
+	git checkout -- fichier.txt    							# Annuler les modifications locales (non indexées)
 	git clone https://github.com/utilisateur/projet.git
 	git push origin main
 	git pull origin main
