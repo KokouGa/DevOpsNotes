@@ -85,5 +85,16 @@ Git combine les modifications et crée un commit spécial
 ## Git Stash
 Git stash permet de sauvegarder temporairement les modifications non validées.
 
+```
 git stash           # Sauvegarder
+git stash apply     # Restaurer
+git stash list      # Voir les stash
+```
 
+## Tags Git
+Les tags sont utilisés pour marquer des commits importants (ex: versions).
+
+```
+git tag v1.0
+git push origin v1.0
+```
