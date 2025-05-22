@@ -11,7 +11,7 @@ Ce projet regroupe une série de tutoriels pratiques couvrant **Git, Docker, CI/
 
 | Module | Description |
 |--------|-------------|
-| [`git/`](./git) | Commandes Git essentielles, branches, rebases, workflows collaboratifs |
+| [`Git.md/`](./git) | Commandes Git essentielles, branches, rebases, workflows collaboratifs |
 | [`docker/`](./docker) | Introduction à Docker, images, conteneurs, Dockerfile, Docker Compose |
 | [`ci-cd/`](./ci-cd) | Concepts CI/CD avec exemples pratiques |
 | [`jenkins/`](./jenkins) | Installation et pipelines Jenkins (de base à avancé) |
