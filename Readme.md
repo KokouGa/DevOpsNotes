@@ -1,6 +1,5 @@
-# Créons le fichier README.md avec le contenu demandé
-
-readme_content = """# 📦 DevOps Handbook – Tutoriels pratiques pour développeurs
+# Tutoriels pratiques pour développeurs et DevOps
+## 📦 DevOps Notes – Tutoriels pratiques pour développeurs
 
 Bienvenue dans mon dépôt GitHub dédié à l'apprentissage et à la pratique des outils DevOps modernes.  
 Ce projet regroupe une série de tutoriels pratiques couvrant **Git, Docker, CI/CD, les tests unitaires, Jenkins, GitHub Actions**, et plus encore.
@@ -11,8 +10,8 @@ Ce projet regroupe une série de tutoriels pratiques couvrant **Git, Docker, CI/
 
 | Module | Description |
 |--------|-------------|
-| [`Git.md/`](./git) | Commandes Git essentielles, branches, rebases, workflows collaboratifs |
-| [`docker/`](./docker) | Introduction à Docker, images, conteneurs, Dockerfile, Docker Compose |
+| [`Git/`](./Git.md) | Commandes Git essentielles, branches, rebases, workflows collaboratifs |
+| [`docker/`](./Docker.md) | Introduction à Docker, images, conteneurs, Dockerfile, Docker Compose |
 | [`ci-cd/`](./ci-cd) | Concepts CI/CD avec exemples pratiques |
 | [`jenkins/`](./jenkins) | Installation et pipelines Jenkins (de base à avancé) |
 | [`github-actions/`](./github-actions) | Créer des workflows GitHub Actions personnalisés |
